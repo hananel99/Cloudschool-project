@@ -11,11 +11,11 @@ apt -y install git-all
 
 apt install unzip
 
-git clone https://github.com/EliranKasif/CloudSchool-DEVOPS.git
+git clone https://github.com/hananel99/Cloudschool-project
 
 apt -y install pip
 
-pip install -r ./CloudSchool-DEVOPS/PythonRestApi/code/requirements.txt
+pip install -r ./Cloudschool-project/PythonRestApi/code/requirements.txt
 
 apt-get -y install libmysqlclient-dev
 pip3 -y install mysqlclient
@@ -26,5 +26,5 @@ wget https://releases.hashicorp.com/consul-template/0.25.2/consul-template_0.25.
 unzip consul-template_0.25.2_linux_amd64.zip
 sudo mv consul-template /usr/local/bin/
 
-consul-template -config ./CloudSchool-DEVOPS/DockerCompose/WorkerInstance/consul-config.hcl
+consul-template -config ./Cloudschool-project/DockerCompose/WorkerInstance/consul-config.hcl
 
