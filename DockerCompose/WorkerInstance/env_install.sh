@@ -11,11 +11,11 @@ apt -y install git-all
 
 apt install unzip
 
-git clone https://github.com/hananel99/Cloudschool-project
+git clone https://github.com/hananel99/Cloud-School-python-app
 
 apt -y install pip
 
-pip install -r ./Cloudschool-project/PythonRestApi/code/requirements.txt
+pip install -r ./Cloud-School-python-app/python\ app/requirements.txt
 
 apt-get -y install libmysqlclient-dev
 pip3 -y install mysqlclient
