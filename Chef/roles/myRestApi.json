@@ -1,0 +1,19 @@
+{
+"name" : "myRestApi",
+"override_attributes" : {
+	"myRestApi" : {
+		"configfile" : "app.conf.erb",
+		"config": {
+			"LOG_LEVEL" : "DEBUG",
+			"END_POINT" : "",
+			"RAPID_API_KEY" : "",				
+			"MYSQL_ENDPOINT" : "",
+			"SCHEMA_NAME" : "",
+			"VAULT_ENDPOINT" : "",
+			"VAULT_TOKEN" : "",
+			"VAULT_PATH_TO_CREDS" : ""
+		}	
+	}
+},
+"run_list":["recipe[myRestApi]"]
+}
